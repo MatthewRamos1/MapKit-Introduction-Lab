@@ -23,8 +23,7 @@ struct LocationAPIClient {
                 completion(.failure(appError))
             case .success(let data):
                 do {
-                    let locationData = try JSONDecoder().decode(LocationData.self, from: data)
-                    let locations = locationData.locations
+                    let locations = try JSONDecoder().decode([Location].self, from: data)
                     completion(.success(locations))
                 } catch {
                     completion(.failure(.decodingError(error)))
