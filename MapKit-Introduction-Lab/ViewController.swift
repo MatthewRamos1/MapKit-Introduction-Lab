@@ -16,11 +16,16 @@ class ViewController: UIViewController {
     
     //
     private var annotations = [MKPointAnnotation]()
-    var userTrackingButton = MKUserTrackingButton()
+    private var userTrackingButton = MKUserTrackingButton()
     private var isShowingAnnotations = false
+    private var locations = [Location]()
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+    }
+    
+    func getLocations() {
         
     }
 
