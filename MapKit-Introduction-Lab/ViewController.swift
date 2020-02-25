@@ -54,7 +54,7 @@ class ViewController: UIViewController {
         var annotations = [MKPointAnnotation]()
         for location in locations {
             let annotation = MKPointAnnotation()
-            annotation.title = "Placeholder"
+            annotation.title = location.schoolName
             annotation.coordinate = createCooridinate(location: location)!
             annotations.append(annotation)
         }
@@ -93,7 +93,7 @@ extension ViewController: MKMapViewDelegate {
         if annotationView == nil {
             annotationView = MKMarkerAnnotationView(annotation: annotation, reuseIdentifier: identifier)
             annotationView?.canShowCallout = true
-            annotationView?.glyphImage = UIImage(systemName: "gear")
+            annotationView?.glyphImage = UIImage(systemName: "pencil")
             annotationView?.glyphTintColor = .systemYellow
             annotationView?.markerTintColor = .systemTeal
         } else {
