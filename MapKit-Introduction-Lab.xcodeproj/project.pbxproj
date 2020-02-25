@@ -16,6 +16,7 @@
 		0C4F94D6240591DD0097B247 /* CoreLocationSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4F94D5240591DD0097B247 /* CoreLocationSession.swift */; };
 		0C4F94D8240592F30097B247 /* LocationAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4F94D7240592F30097B247 /* LocationAPIClient.swift */; };
 		0C4F94DB2405942A0097B247 /* ImageKit in Frameworks */ = {isa = PBXBuildFile; productRef = 0C4F94DA2405942A0097B247 /* ImageKit */; };
+		0C4F94DD2405AC7D0097B247 /* UIViewController + Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4F94DC2405AC7D0097B247 /* UIViewController + Alerts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		0C4F94CF24058D3C0097B247 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C4F94D5240591DD0097B247 /* CoreLocationSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreLocationSession.swift; sourceTree = "<group>"; };
 		0C4F94D7240592F30097B247 /* LocationAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationAPIClient.swift; sourceTree = "<group>"; };
+		0C4F94DC2405AC7D0097B247 /* UIViewController + Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Alerts.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				0C4F94C524058D360097B247 /* ViewController.swift */,
 				0C4F94D5240591DD0097B247 /* CoreLocationSession.swift */,
 				0C4F94D7240592F30097B247 /* LocationAPIClient.swift */,
+				0C4F94DC2405AC7D0097B247 /* UIViewController + Alerts.swift */,
 				0C4F94C724058D360097B247 /* Main.storyboard */,
 				0C4F94CA24058D3C0097B247 /* Assets.xcassets */,
 				0C4F94CC24058D3C0097B247 /* LaunchScreen.storyboard */,
@@ -157,6 +160,7 @@
 				0C4F94D6240591DD0097B247 /* CoreLocationSession.swift in Sources */,
 				0C4F94D8240592F30097B247 /* LocationAPIClient.swift in Sources */,
 				0C4F94C424058D360097B247 /* SceneDelegate.swift in Sources */,
+				0C4F94DD2405AC7D0097B247 /* UIViewController + Alerts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

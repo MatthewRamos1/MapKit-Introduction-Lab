@@ -26,7 +26,19 @@ class ViewController: UIViewController {
     }
     
     func getLocations() {
-        
+        LocationAPIClient.fetchLocations { [weak self] (result) in
+            switch result {
+            case .failure(let appError):
+                DispatchQueue.main.async {
+                    self?.showAlert(title: "Error", message: "Couldn't access locations: \(appError)")
+                }
+            case .success(let locations):
+                DispatchQueue.main.async {
+                    self?.locations = locations
+                }
+            }
+            
+        }
     }
 
 
